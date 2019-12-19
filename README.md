@@ -24,6 +24,8 @@ When Project is done cloning,
 - Click okay
 
 To Run Create Patient test,
+- Make sure the app is running (if app is not running on localhost:3000, please insert the right url to the app in line 42 of createPatientTest.java
+in the 'steps' package - you can find that in src/test/java. driver.get("your url or host"))
 - Right-click testng.xml (usually the last file in the project)
 - Run as TestNG Suite
 
